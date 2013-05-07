@@ -29,6 +29,11 @@ namespace Rock.SystemGuid
         public static Guid FINANCIAL_SOURCE_TYPE { get { return new Guid( "4F02B41E-AB7D-4345-8A97-3904DDD89B01" ); } }
 
         /// <summary>
+        /// Guid for Financial Fund Type
+        /// </summary>
+        public static Guid FINANCIAL_FUND_TYPE { get { return new Guid( "e388c12f-0d8c-4055-8a53-5dde824bf711" ); } }
+
+        /// <summary>
         /// Guid for the types of Locations (such as Home, Main Office, etc)
         /// </summary>
         public static Guid LOCATION_LOCATION_TYPE { get { return new Guid( "2e68d37c-fb7b-4aa5-9e09-3785d52156cb" ); } }

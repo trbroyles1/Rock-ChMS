@@ -1668,7 +1668,7 @@ INSERT INTO [Attribute] ([Id], [IsSystem], [FieldTypeId], [EntityTypeId], [Entit
 INSERT INTO [Attribute] ([Id], [IsSystem], [FieldTypeId], [EntityTypeId], [EntityTypeQualifierColumn], [EntityTypeQualifierValue], [Key], [Name], [Category], [Description], [Order], [IsGridColumn], [DefaultValue], [IsMultiValue], [IsRequired], [Guid]) VALUES (225, 1, 10, 30, N'', N'', N'DetailImage', N'Detail Image', N'', N'', 0, 0, N'', 0, 0, 'c5c19024-25ee-4a9a-9dcc-bfb148c84b8e')
 SET IDENTITY_INSERT [Attribute] OFF
 
--- Add 14 rows to [DefinedType]
+-- Add 15 rows to [DefinedType]
 SET IDENTITY_INSERT [DefinedType] ON
 INSERT INTO [DefinedType] ([Id], [IsSystem], [FieldTypeId], [Order], [Category], [Name], [Description], [Guid]) VALUES (1, 1, NULL, 0, N'Person', N'Record Type', N'Record Types', '26be73a6-a9c5-4e94-ae00-3afdcf8c9275')
 INSERT INTO [DefinedType] ([Id], [IsSystem], [FieldTypeId], [Order], [Category], [Name], [Description], [Guid]) VALUES (2, 1, NULL, 0, N'Person', N'Record Status', N'Record Status', '8522badd-2871-45a5-81dd-c76da07e2e7e')
@@ -1684,6 +1684,8 @@ INSERT INTO [DefinedType] ([Id], [IsSystem], [FieldTypeId], [Order], [Category],
 INSERT INTO [DefinedType] ([Id], [IsSystem], [FieldTypeId], [Order], [Category], [Name], [Description], [Guid]) VALUES (14, 1, NULL, 0, N'Metric', N'Frequency', N'Types of frequencies', '526cb333-2c64-4486-8469-7f7ea9366254')
 INSERT INTO [DefinedType] ([Id], [IsSystem], [FieldTypeId], [Order], [Category], [Name], [Description], [Guid]) VALUES (15, 1, 1, 2, N'Location', N'Location Type', N'Location Types', '2e68d37c-fb7b-4aa5-9e09-3785d52156cb')
 INSERT INTO [DefinedType] ([Id], [IsSystem], [FieldTypeId], [Order], [Category], [Name], [Description], [Guid]) VALUES (16, 1, 1, 3, N'Marketing Campaign', N'Audience Type', N'Audience Type', '799301a3-2026-4977-994e-45dc68502559')
+INSERT INTO [DefinedType] ([Id], [IsSystem], [FieldTypeId], [Order], [Category], [Name], [Description], [Guid]) VALUES (17, 1, 1, 1, N'Financial', N'Fund Type', N'Type of a financial fund', 'e388c12f-0d8c-4055-8a53-5dde824bf711')
+
 SET IDENTITY_INSERT [DefinedType] OFF
 
 -- Add 145 rows to [AttributeValue]
